@@ -1,0 +1,29 @@
+Times:
+
+10 simulations: TODO
+2018m.csv = 0m0.030s
+2019w.csv = 0m0.27s
+100 simulations: TODO
+2018m.csv = 0m0.033s
+2019w.csv = 0m0.029s
+1000 simulations: TODO
+2018m.csv = 0m0.034s
+2019w.csv = 0m0.067s
+10000 simulations: TODO
+2018m.csv =  0m0.098s
+2019w.csv = 0m0.101s
+100000 simulations: TODO
+2018m.csv = 0m1.021s
+2019w.csv = 0m0.756s
+1000000 simulations: TODO
+2018m.csv = 0m7.589s
+2019w.csv = 0m7.776s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
+In the given code, the predictions are based on simulating multiple tournaments and counting the number of wins for each team. As the number of simulations (N) increases, the predictions become more accurate and reliable. However, since the simulations involve randomness (the outcome of each game is based on a probability calculation), there is still a level of uncertainty. Increasing the number of simulations reduces the margin of error, but it does not guarantee 100% accuracy. Therefore, even with a large number of simulations, there might still be variations in the predicted probabilities. It's important to analyze the trend and overall probabilities rather than focusing on individual predictions for specific teams.
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+It seems like the predictions stabilized after about 100000 simulations.
